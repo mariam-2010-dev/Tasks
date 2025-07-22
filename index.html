@@ -1,18 +1,133 @@
-<html>
-    <body>
-      <center>
-      <h1 style="text-align: center;">HTML assignment 1</h1>
-      <hr  color="red;" width="500">
-      
-      <br>
-      <p>
-         It's my first <i>HTML assignment</i>   .I'm excited to learn HTML,and i want to make career in <b>web design</b>.
-      </p>
-      <h2>Introdation to HTML</h2>
-      <P>
-         HTML(HyperTextMarkupLanguage) is used to creat a document in the<u> world wide web</u>.It is simply a collection  of certain key words called <i>"Tags"</i> that are helpful in writing
-         the document to be displayed using a browser using internet.HTML was developded by <b>Tim Berners-Lee</b> in 1992.
-      </P>
-      </center>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian resturant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header start -->
+     <header id="header">
+       <nav class="navbar">
+         <a href="#Home">Gourmet au Catering</a>
+         <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Contact">Contact</a></li>
+         </ul>
+       </nav>
+     </header>
+    <!-- header end -->
+     <!-- main start -->
+      <main>
+        <!-- home start -->
+         <section id="Home">
+            <div class="image">
+              <h2>Le Catering</h2>
+            </div>
+         </section>
+         
+        <!-- home end -->
+         <!-- about start -->
+         <section id="About">
+            <div class="container">
+                <div class="text-content">
+                    
+                  <div class="image-content">
+                     <img src="./media/photo_6048578224092465138_x.jpg" alt=""> 
+                  </div>
+                  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                  <h2>About Catering</h2>
+                      <br><br>
+                      <h4>Tradition scince 1889</h4>
+                      <br>
+                      <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. We only use seasonal ingredients. </p>
+                      <br>
+                      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+         </section>
+         
+         <!-- about end -->
+          <!-- menu start -->
+           <section id="Menu">
+            <div class="container-2">
+                 
+                 <div class="text-content-2">
+                   <h2>Our Menu</h2>
+                   <br><br>
+                   <h4> Bread Basket</h4>
+                   <br>
+                   <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                   
+                   
+                   <h4>Belgian Waffle</h4>
+                   <br>
+                   <p>Vanilla flavored batter with malted flour 7.50</p>
+                   
+                   
+                   <h4>Scrambled eggs</h4>
+                   <br>
+                   <p>Scrambled eggs, roasted red pepper and garlic, with green onions</p>
+                   
+                   
+                   <h4>Blueberry Pancakes</h4>
+                   <br>
+                   <p>With syrup, butter and lots of berries 8.50</p>
+                   
+                   
+                   <h4></h4>
+                   <br>
+                   <p></p>
+                   </div>
+                   <div class="image-content-2">
+                    <img src="./media/photo_6048578224092465133_x.jpg" alt="">
+                 </div>
+                 <div class="clt"></div>
+            </div>
+           </section>
+           
+     <section id="Contact">
+        <div class="contain">
+            <div class="par">
+                <h2>Contact</h2>
+                <br><br>
+                <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+                <br>
+                <p style="color: blue;">Catering Service, 42nd Living St, 43043 New York, NY</p>
+                <br>
+                <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+            </div>
+              <div class="form"></div>
+            <label for="1">Name</label>
+            <br>
+            <input type="text"  id="1">
+            <br> <hr>
+            
+            <label for="2">How many people?</label>
+            <br>
+            <input type="number"  id="2">
+             <hr>
+
+            <label for="3"></label>
+            <br>
+            <input type="date"  id="3">
+             <hr>
+
+            <label for="4">Messsage\Special requirements</label>
+            <br>
+            <input type="text"  id="4">
+             <hr>
+              </div>
+        </div>
+           </section>
+           
+      </main>
+     <!-- main end -->
+</body>
 </html>

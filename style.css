@@ -1,0 +1,137 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:rgba(221, 221, 221, 0.697);
+  font-family: "Open Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family: "Oswald", sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+/* utility classes */
+/* home start */
+#Home .image 
+{
+    background-image: url(./media/photo_6048578224092465137_y.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#Home .image h2
+{
+    color: black;
+    font-size: 30px;
+    padding-top: 93vh;
+}
+/* home end */
+/* about start */
+#about .container
+{
+    margin: auto;
+}
+.text-content 
+{
+   margin-top: 100px;
+   margin-left: 100px;
+   margin-bottom: 100px;
+   margin-right: 100px;
+   padding: 20px 50px;
+   overflow: hidden;
+   text-align: center;
+}
+.image-content img
+{
+    float: left;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+/* about end */
+/* menu start */
+.image-content-2 img
+{
+   margin-top: 100px;
+   margin-left: 100px;
+   margin-bottom: 100px;
+   margin-right: 100px;
+   padding: 20px 50px;
+   overflow: hidden;
+   width: fit-content;
+   height: 600px;
+}
+.text-content-2 
+{ 
+   float: left;
+   margin-top: 250px;
+   margin-left: 250px;
+}
+#Menu .container-2
+{  
+    margin:auto;
+}
+.clt
+{
+    clear: both;
+}
+/* menu end */
+/* header start */
+#header
+{
+    position: relative;
+    background-color:rgb(243, 238, 228);
+    width: 100%;
+    border-bottom: 4px solid #ccc;
+    height: 80px;
+    align-items: center;   
+}
+#header .navbar
+{
+   padding-top: 25px;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+}
+#header .navbar ul
+{
+    display: flex;
+}
+#header .navbar ul li a 
+{
+    color: rgb(88, 88, 88);
+    font-size: 18px;
+    font-weight: 600px;
+    margin:0 20px;
+    transition:all 0.3s ease;
+}
+#header .navbar ul li a:hover
+{
+    color: rgb(246, 138, 61);
+}
+#header .navbar a
+{
+    color: rgb(122, 121, 121);
+     transition:all 0.3s ease;
+}
+#header .navbar  a:hover
+{
+    color: rgb(246, 138, 61);
+}
+/* header end */
+.contain
+{
+  margin-left: 200px;
+  margin-right: 200px;
+}
